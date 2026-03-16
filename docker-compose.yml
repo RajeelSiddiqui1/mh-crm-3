@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  frontend:
+   build: .
+   container_name: mh-crm-frontend
+   ports:
+     - "5179:80"
+
+   restart: always  
